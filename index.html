@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <title>form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>CREATE AN ACCOUNT</h1>
+      <h2>We always keep your name and email address private</h2>
+      <form>
+        <div class="inputs">
+          <input type="text" placeholder="First name" /><input
+            type="text"
+            placeholder="Last name"
+          /><input type="text" placeholder="Display name" /><input
+            type="email"
+            placeholder="Email address"
+          /><input type="password" placeholder="Password" /><input
+            type="password"
+            placeholder="Password conformation"
+          />
+        </div>
+        <div class="label-input">
+          <input type="radio" id="buyer" name="buyer" checked />
+          <label class="label" for="buyer"
+            >Join as a buyer
+            <span
+              >I am looking for a Name,Logo or Tagline for my business,brand or
+              product.
+            </span>
+          </label>
+        </div>
+        <div class="label-input">
+          <input type="radio" id="seller" name="seller" />
+          <label class="label" for="seller"
+            >Join as a creative or marketplace Seller
+            <span
+              >I am planing to submit name ideas,logo designs or sell name in
+              domain marketplace.</span
+            ></label
+          >
+        </div>
+        <div class="label-input checkbox">
+          <input type="checkbox" id="allow" name="allow" />
+          <label class="label checkbox-label" for="allow"
+            >Alow Squadhelp to send marketing/promotional offers from time to
+            time
+          </label>
+        </div>
+        <input type="submit" value="Create account" />
+      </form>
+    </div>
+  </body>
+</html>
